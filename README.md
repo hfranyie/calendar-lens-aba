@@ -1,16 +1,15 @@
 # Calendar Lens for ABA Professionals
 
-**Turn the colours already on your Google Calendar into billable hour totals.**
+**Turn your Google Calendar into billable hour totals — by colour or by keyword.**
 
-Built for ABA teams — RBTs, BCaBAs and BCBAs — who colour-code their schedule and
-need to know how many of those hours are actually billable.
+Built for ABA teams — RBTs, BCaBAs and BCBAs — who need to know how many of
+their scheduled hours are actually billable.
 
-No keywords to maintain, no tagging, no second system. Colour your calendar the
-way you already do, tell Calendar Lens which colours count, and read the total.
+Match events **by colour** or **by keyword** — whichever fits how you already
+work. Colour-code your week, or use the codes and service names already in your
+event titles. Either way, tell Calendar Lens what counts and read the total.
 
-<p align="center">
-  <img src="images/01-colours.png" alt="The Calendar Lens side panel with five tracked colours, each labelled and marked billable or not" width="380">
-</p>
+![A Google Calendar week with Calendar Lens running: every event shows its duration, billable events carry a green dollar badge, each day has an hours badge, and a floating panel totals 25.50 h billable](assets/11-calendar-after.png)
 
 ---
 
@@ -44,34 +43,65 @@ your calendar. Leave it open while you set things up — you'll want to see both
 
 ## 2. Quick start (five minutes)
 
-**Step 1 — Colour-code your week.** Most people already do this. If you don't,
-right-click any event in Google Calendar and pick a colour. Give each client,
-agency or service type its own colour.
+### Step 1 — Start with your colour-coded week
 
-**Step 2 — Open the panel** and find **Your colours**. Press **Rescan** and every
-colour currently on screen is listed, with how many events and hours each one
-accounts for.
+This is an ordinary Google Calendar. Nothing installed yet, nothing to change —
+if you already give each client, agency or service type its own colour, you're
+ready.
 
-**Step 3 — Tick the colours you want counted.** Ticking a colour brings it into
-your totals.
+![A plain Google Calendar week view with no extension running](assets/10-calendar-before.png)
 
-**Step 4 — Name it.** Type whatever the colour means to you: `Direct therapy`,
-`Supervision`, `Northshore ABA`, `Drive time`. This name is what appears in your
-totals.
-
-**Step 5 — Mark it billable or not.** Each tracked row has a round button:
-
-![The legend: unticked means ignored, a green dollar means billable, an amber dash means counted but not billable](images/03-legend.png)
-
-That's it. Your calendar now shows durations, and the panel shows your hours.
+> Don't colour-code yet? Right-click any event in Google Calendar and pick a
+> colour. Or skip colours entirely and use
+> [keywords](#3-colours-or-keywords) instead.
 
 ---
 
+### Step 2 — Open the panel and press Rescan
+
+Click the Calendar Lens icon in your toolbar. The panel opens beside your
+calendar and lists every colour currently on screen, with how many events and
+hours each one accounts for.
+
+![The Calendar Lens side panel listing five tracked colours, each with a name, an hours figure and a billable button](assets/01-panel-colours.png)
+
+---
+
+### Step 3 — Name each colour, and say whether it's billable
+
+Type what the colour means to you — `Client A — direct`, `Supervision`,
+`Drive time`. That name is what shows up in your totals.
+
+Then set each one with the round button on the right:
+
+![The legend: unticked means ignored, a green dollar means billable, an amber dash means counted but not billable](assets/03-legend.png)
+
+Tick **Drive time** and **Admin** but mark them **not billable** — they stay
+visible and counted, without inflating the number you'd actually bill.
+
+---
+
+### Step 4 — Read your week
+
+Your calendar now carries the answer:
+
+![The same calendar week with durations on every event, green dollar badges on billable ones, amber dashes on drive time and admin, an hours badge under each date, and the totals panel showing 25.50 h billable with a by-day and by-client breakdown](assets/11-calendar-after.png)
+
+Everything on that screen is calculated from what was already there:
+
+| On the calendar | What it means |
+|---|---|
+| `Client A • 2 hrs` | The duration, read from the time range Google already shows |
+| 🟢 **$** corner badge | Counted as billable |
+| 🟡 **—** corner badge | Counted, but not billable |
+| `5.50 h` under a date | That day's billable total |
+| The floating panel | The week: total, billable percentage, by day, by client |
+
 ## 3. Colours or keywords
 
-At the top of **Your colours** there's a switch:
+At the top of that section there's a switch:
 
-![A two-part switch reading Colours and Keywords, with Colours selected](images/04-switch.png)
+![A two-part switch reading Colours and Keywords, with Colours selected](assets/04-mode-switch.png)
 
 **Colours** — the default. Events are matched by the colour they're drawn in.
 Best if your calendar is already colour-coded.
@@ -80,7 +110,7 @@ Best if your calendar is already colour-coded.
 use codes or service names in your event titles and colour is inconsistent.
 
 <p align="center">
-  <img src="images/02-keywords.png" alt="Keyword mode, showing tracked keywords Direct therapy, Supervision, Assessment and Admin" width="380">
+  <img src="assets/02-panel-keywords.png" alt="Keyword mode, showing tracked keywords Direct therapy, Supervision, Assessment and Admin" width="380">
 </p>
 
 Add a keyword and every event whose title contains that word is counted. Matching
@@ -104,7 +134,7 @@ setup exactly as you left it.
 
 ## 4. Reading your calendar
 
-Once colours are set up, your calendar itself changes:
+Once your colours or keywords are set up, your calendar itself changes:
 
 **Every event gets its duration** — `Client session • 1 hr 30 min`, read from the
 time range Google already displays.
@@ -116,7 +146,7 @@ for counted-but-not-billable. Untracked events get nothing.
 
 You can turn any of these off in **Settings**. If you'd rather see durations only
 on events you actually track, set **Show duration labels on** to
-*Selected colours only*.
+*Selected colours only* (it reads *Selected keywords only* in keyword mode).
 
 ---
 
@@ -157,6 +187,10 @@ Before you've marked anything billable, the panel says **Scheduled** rather than
 If two **billable** events overlap in time, both are ringed in red on the calendar
 with a **!** badge, and the panel names the clash:
 
+![A calendar week where two billable events on Wednesday overlap; both are outlined in red with an exclamation badge](assets/12-double-booking.png)
+
+
+
 ```
 ⚠ 1 double-booking · 2.00 h overlapping
    Tue 5 — Client A and Client B overlap by 2.00 h
@@ -190,7 +224,7 @@ past what a funder will authorise. Set it to `0` to turn it off.
 
 ## 8. Free and Pro
 
-![The plan strip on the free tier, reading one tracked colour included with four more in view](images/05-free.png)
+![The plan strip on the free tier, reading one tracked colour included with four more in view](assets/05-plan-free.png)
 
 **Free** includes **one tracked colour or keyword**, and totals for **the week
 you're currently in**. Pick any colour, label it, mark it billable, and get
