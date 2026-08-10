@@ -8,6 +8,10 @@ need to know how many of those hours are actually billable.
 No keywords to maintain, no tagging, no second system. Colour your calendar the
 way you already do, tell Calendar Lens which colours count, and read the total.
 
+<p align="center">
+  <img src="images/01-colours.png" alt="The Calendar Lens side panel with five tracked colours, each labelled and marked billable or not" width="380">
+</p>
+
 ---
 
 ## Contents
@@ -57,11 +61,7 @@ totals.
 
 **Step 5 — Mark it billable or not.** Each tracked row has a round button:
 
-| Button | Meaning |
-|:---:|---|
-| 🟢 **$** | Counts as billable |
-| 🟡 **—** | Counted, but **not** billable — admin, drive time, cancellations |
-| ⚪ unticked | Ignored completely |
+![The legend: unticked means ignored, a green dollar means billable, an amber dash means counted but not billable](images/03-legend.png)
 
 That's it. Your calendar now shows durations, and the panel shows your hours.
 
@@ -71,17 +71,17 @@ That's it. Your calendar now shows durations, and the panel shows your hours.
 
 At the top of **Your colours** there's a switch:
 
-```
-┌─────────────┬─────────────┐
-│  Colours    │  Keywords   │
-└─────────────┴─────────────┘
-```
+![A two-part switch reading Colours and Keywords, with Colours selected](images/04-switch.png)
 
 **Colours** — the default. Events are matched by the colour they're drawn in.
 Best if your calendar is already colour-coded.
 
 **Keywords** — events are matched by words in their titles instead. Best if you
 use codes or service names in your event titles and colour is inconsistent.
+
+<p align="center">
+  <img src="images/02-keywords.png" alt="Keyword mode, showing tracked keywords Direct therapy, Supervision, Assessment and Admin" width="380">
+</p>
 
 Add a keyword and every event whose title contains that word is counted. Matching
 is:
@@ -189,6 +189,8 @@ past what a funder will authorise. Set it to `0` to turn it off.
 ---
 
 ## 8. Free and Pro
+
+![The plan strip on the free tier, reading one tracked colour included with four more in view](images/05-free.png)
 
 **Free** includes **one tracked colour or keyword**, and totals for **the week
 you're currently in**. Pick any colour, label it, mark it billable, and get
