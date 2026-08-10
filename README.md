@@ -72,9 +72,10 @@ hours each one accounts for.
 Type what the colour means to you — `Client A — direct`, `Supervision`,
 `Drive time`. That name is what shows up in your totals.
 
-Then set each one with the round button on the right:
+Then set each one with the round button on the right. Here is what each setting
+looks like on an actual event:
 
-![The legend: unticked means ignored, a green dollar means billable, an amber dash means counted but not billable](assets/03-legend.png)
+![Three calendar events side by side. An untouched grey Team meeting with no badge. A blue Client A event reading two hours with a green dollar badge. A yellow Drive time event reading one hour with an amber dash badge.](assets/06-badges.png)
 
 Tick **Drive time** and **Admin** but mark them **not billable** — they stay
 visible and counted, without inflating the number you'd actually bill.
@@ -89,13 +90,21 @@ Your calendar now carries the answer:
 
 Everything on that screen is calculated from what was already there:
 
-| On the calendar | What it means |
-|---|---|
-| `Client A • 2 hrs` | The duration, read from the time range Google already shows |
-| 🟢 **$** corner badge | Counted as billable |
-| 🟡 **—** corner badge | Counted, but not billable |
-| `5.50 h` under a date | That day's billable total |
-| The floating panel | The week: total, billable percentage, by day, by client |
+![The same calendar week with five numbered markers pointing at the duration written onto an event, the green dollar badge, the amber dash badge, the hours badge under a date, and the totals panel](assets/13-annotated.png)
+
+**1 — The duration**, written onto the event: `Client A • 2 hrs`. Read from the
+time range Google already displays; nothing is added to your calendar.
+
+**2 — The green `$`**, in the corner of every billable event.
+
+**3 — The amber `—`**, on events you count but never bill. Drive time and admin
+stay visible without inflating the billable figure.
+
+**4 — That day's billable hours**, under the date. Turns red if you set a daily
+limit and go past it.
+
+**5 — The totals panel**: the week's total, what share of it is billable, a
+breakdown by day, and one by client or agency.
 
 ## 3. Colours or keywords
 
@@ -306,7 +315,7 @@ Day badges and double-booking checks work in day and week view only.
 ## 11. Support
 
 Questions, problems or feature requests:
-**[infowamvy@gmail.com](mailto:infowamvy@gmail.com)**
+**[info@wamvytech.com](mailto:info@wamvytech.com)**
 
 We aim to respond within 5 business days.
 
