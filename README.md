@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/00-banner.png" alt="Calendar Lens for ABA Professionals. Turn your calendar into billable hours. A Google Calendar week showing durations and billable badges on every event, beside the extension's side panel." width="100%">
+</p>
+
 # Calendar Lens for ABA Professionals
 
 **Turn your Google Calendar into billable hour totals — by colour or by keyword.**
@@ -8,8 +12,6 @@ their scheduled hours are actually billable.
 Match events **by colour** or **by keyword** — whichever fits how you already
 work. Colour-code your week, or use the codes and service names already in your
 event titles. Either way, tell Calendar Lens what counts and read the total.
-
-![A Google Calendar week with Calendar Lens running: every event shows its duration, billable events carry a green dollar badge, each day has an hours badge, and a floating panel totals 25.50 h billable](assets/11-calendar-after.png)
 
 ---
 
