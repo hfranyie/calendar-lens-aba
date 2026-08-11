@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/00-banner.png" alt="Calendar Lens for ABA Professionals. Turn your calendar into billable hours. A Google Calendar week showing durations and billable badges on every event, beside the extension's side panel." width="100%">
+  <img src="assets/00-banner.png" alt="Calendar Lens for ABA Professionals. Turn calendar colours into billable hours. Track totals, daily limits and client colours directly inside Google Calendar." width="100%">
 </p>
 
 # Calendar Lens for ABA Professionals
