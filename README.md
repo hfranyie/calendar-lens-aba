@@ -235,7 +235,7 @@ past what a funder will authorise. Set it to `0` to turn it off.
 
 ## 8. Free and Pro
 
-![The plan strip on the free tier, reading one tracked colour included with four more in view](assets/05-plan-free.png)
+![The plan strip on the free tier, showing the single included allowance and how many more colours were found in the current view](assets/05-plan-free.png)
 
 **Free** includes **one tracked colour or keyword**, and totals for **the week
 you're currently in**. Pick any colour, label it, mark it billable, and get
