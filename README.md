@@ -31,7 +31,7 @@ event titles. Either way, tell Calendar Lens what counts and read the total.
 
 ## 1. Installing
 
-Install from the Chrome Web Store, then open [Google Calendar](https://calendar.google.com).
+Install from the Chrome Web Store, then open <a href="https://calendar.google.com" target="_blank" rel="noopener noreferrer">Google Calendar</a>.
 
 Click the Calendar Lens icon in your toolbar and the settings panel opens beside
 your calendar. Leave it open while you set things up — you'll want to see both.
@@ -271,8 +271,8 @@ us — may copy those settings to your other signed-in devices.
 handles checkout and paid status, Stripe processes the payment. Neither ever
 receives calendar data.
 
-Full detail: [Privacy Policy](https://wamvytech.com/privacy-aba-calendar.html) ·
-[Terms of Service](https://wamvytech.com/terms-aba-calendar.html)
+Full detail: <a href="https://wamvytech.com/privacy-aba-calendar.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a> ·
+<a href="https://wamvytech.com/terms-aba-calendar.html" target="_blank" rel="noopener noreferrer">Terms of Service</a>
 
 > **Totals reflect scheduled time.** Cancellations, no-shows and sessions that run
 > short are not reflected. This is a planning and estimation aid — reconcile
